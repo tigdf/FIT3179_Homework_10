@@ -4,7 +4,7 @@
   "width": 800,
   "height": 500,
   "data": {
-    "url": "https://raw.githubusercontent.com/tigdf/FIT3179-Data-Vis-2/main/choropleth_map/js/ne_110m_admin_0_countries.topojson",
+    "url": "https://raw.githubusercontent.com/tigdf/FIT3179-Data-Vis-2/main/geodata/ne_110m_admin_0_countries.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "projection": {"type": "equalEarth"},
@@ -25,7 +25,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/tigdf/FIT3179-Data-Vis-2/main/choropleth_map/data/cost_of_living_indices_country_2020.csv"
+              "url": "https://raw.githubusercontent.com/tigdf/FIT3179-Data-Vis-2/main/datasets/cost_of_living_indices_country_2020 (Numbeo).csv"
             },
             "key": "Country",
             "fields": ["Cost of Living Index"]
